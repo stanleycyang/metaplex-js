@@ -76,10 +76,10 @@ export type BundlrWalletAdapter = {
 };
 
 /// Size of Bundlr transaction header
-const HEADER_SIZE = 2_000;
+const HEADER_SIZE = 2000;
 
 /// Minimum file size for cost calculation
-const MINIMUM_SIZE = 80_000;
+const MINIMUM_SIZE = 80000;
 
 export class BundlrStorageDriver implements StorageDriver {
   protected _metaplex: Metaplex;
